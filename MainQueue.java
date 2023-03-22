@@ -9,5 +9,7 @@ public class MainQueue {
         queue.add(30);
         queue.add(40);
         queue.display();
+        queue.delete(10);
+        queue.display();
     }
 }

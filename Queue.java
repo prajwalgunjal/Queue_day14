@@ -12,4 +12,8 @@ public class Queue<T> {
         linkedList.display();
     }
 
+    public void delete(T data) {
+
+        linkedList.DeleteFirstElement(data);
+    }
 }
